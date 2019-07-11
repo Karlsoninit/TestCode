@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "apple",
+    "price": 1234,
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgfZeQfcPa39Zodu_eXAUs9xYjmRk5lBry4TWh5nCWiWLf7dka-g"
+  },
+  {
+    "id": 2,
+    "title": "juice",
+    "price": 124,
+    "icon": "https://static1.squarespace.com/static/58c931a51b10e3a1c3c3aace/t/5af641841ae6cf80fc05ff78/1532566504179/juce.png"
+  },
+  {
+    "id": 3,
+    "title": "pineapple",
+    "price": 34,
+    "icon": "https://images-na.ssl-images-amazon.com/images/I/81WJyO53YAL._SY550_.jpg"
+  }
+]
