@@ -1,11 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MenuList from '../MenuList/MenuList';
-import StyleWrapper from './Menu.styled';
 
-const Menu = ({ products, icon }) => {
+const Menu = ({ products }) => {
   return (
-    <StyleWrapper icon={icon}>
+    <ul>
       {products.length >= 3 ? (
         products.map(element => (
           <li key={element.id}>
@@ -15,17 +14,15 @@ const Menu = ({ products, icon }) => {
       ) : (
         <p>false</p>
       )}
-    </StyleWrapper>
+    </ul>
   );
 };
 
 Menu.defaultProps = {
   products: [],
-  icon: '',
 };
 
 Menu.propTypes = {
-  icon: PropTypes.string,
   products: PropTypes.arrayOf(
     PropTypes.shape({ id: PropTypes.number.isRequired }),
   ),
