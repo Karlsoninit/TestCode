@@ -8,6 +8,7 @@ const MenuList = ({ price, icon, title, disabled }) => {
       <h1 className={disabled ? style.titleStyle : style.titleDiasable}>
         {title}
       </h1>
+
       <img className={style.imgStyle} src={icon} alt={title} />
       <p>{price}</p>
     </div>
@@ -18,7 +19,7 @@ MenuList.defaultProps = {
   price: 0,
   icon: '',
   title: '',
-  disabled: true,
+  disabled: false,
 };
 
 MenuList.propTypes = {
