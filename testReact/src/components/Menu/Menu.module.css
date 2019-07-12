@@ -1,0 +1,10 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  border: 1px solid thistle;
+}
+
+.innerBox {
+  width: 300px;
+}
